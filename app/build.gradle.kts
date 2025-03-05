@@ -37,6 +37,7 @@ android {
 
 dependencies {
 //  implementation files("../libs/injectorService-debug.aar")  // Ajusta la ruta si es necesario
+    implementation("com.github.juansanz:injectorService:1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
